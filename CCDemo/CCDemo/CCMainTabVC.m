@@ -23,8 +23,10 @@
     
     self.titles = @[].mutableCopy;
     self.classNames = @[].mutableCopy;
-    [self addCell:@"Animated Image" class:@"YYImageDisplayExample"];
-    [self addCell:@"Progressive Image" class:@"YYImageProgressiveExample"];
+    [self addCell:@"Segment" class:@"CCSegmentExample"];
+    [self addCell:@"WaterfallFlow" class:@"CCWaterfallFlowExample"];
+    [self addCell:@"GiftAnimations" class:@"CCGiftAnimationsExample"];
+    
     [self.tableView reloadData];
     
 }
