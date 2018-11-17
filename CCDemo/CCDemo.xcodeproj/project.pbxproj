@@ -206,7 +206,7 @@
 				1426B36A219C0B9300DA3FFA /* ViewController.m */,
 				1426B37C219C0C8F00DA3FFA /* CCMainTabVC.h */,
 				1426B37D219C0C8F00DA3FFA /* CCMainTabVC.m */,
-				1426B50421A02E8300DA3FFA /* CCScroll */,
+				1426B50421A02E8300DA3FFA /* TheSample */,
 				1426B36C219C0B9300DA3FFA /* Main.storyboard */,
 				1426B36F219C0B9400DA3FFA /* Assets.xcassets */,
 				1426B371219C0B9400DA3FFA /* LaunchScreen.storyboard */,
@@ -217,7 +217,7 @@
 			path = CCDemo;
 			sourceTree = "<group>";
 		};
-		1426B50421A02E8300DA3FFA /* CCScroll */ = {
+		1426B50421A02E8300DA3FFA /* TheSample */ = {
 			isa = PBXGroup;
 			children = (
 				1426B57921A064A900DA3FFA /* SimulationData */,
@@ -230,7 +230,7 @@
 				1426B56021A04FF300DA3FFA /* CCWaterfallFlowVC.h */,
 				1426B56121A04FF300DA3FFA /* CCWaterfallFlowVC.m */,
 			);
-			path = CCScroll;
+			path = TheSample;
 			sourceTree = "<group>";
 		};
 		1426B50821A033B200DA3FFA /* CCUtils */ = {
