@@ -1,0 +1,11 @@
+platform :ios, '8.0'
+
+target 'CCDemo' do
+   
+    pod 'MJRefresh'
+    pod 'YYText'
+    pod 'YYImage'
+    pod 'YYWebImage'
+    pod 'MJExtension', '~> 3.0.13'
+
+end

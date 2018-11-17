@@ -14,6 +14,48 @@
 		1426B373219C0B9400DA3FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1426B371219C0B9400DA3FFA /* LaunchScreen.storyboard */; };
 		1426B376219C0B9400DA3FFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B375219C0B9400DA3FFA /* main.m */; };
 		1426B37E219C0C8F00DA3FFA /* CCMainTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B37D219C0C8F00DA3FFA /* CCMainTabVC.m */; };
+		1426B50721A0300C00DA3FFA /* CCBannerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B50621A0300C00DA3FFA /* CCBannerVC.m */; };
+		1426B53621A033B300DA3FFA /* UIView+CCBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B50921A033B200DA3FFA /* UIView+CCBadge.m */; };
+		1426B53721A033B300DA3FFA /* UIButton+CCEnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B50B21A033B200DA3FFA /* UIButton+CCEnlargeTouchArea.m */; };
+		1426B53821A033B300DA3FFA /* CCHintHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B50C21A033B200DA3FFA /* CCHintHud.m */; };
+		1426B53921A033B300DA3FFA /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B50D21A033B200DA3FFA /* UIView+Additions.m */; };
+		1426B53A21A033B300DA3FFA /* CCUICreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B50E21A033B200DA3FFA /* CCUICreator.m */; };
+		1426B53B21A033B300DA3FFA /* UIView+WhenTappedBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B51021A033B200DA3FFA /* UIView+WhenTappedBlocks.m */; };
+		1426B53C21A033B300DA3FFA /* UIImage+CCImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B51121A033B200DA3FFA /* UIImage+CCImage.m */; };
+		1426B53D21A033B300DA3FFA /* CCTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B51221A033B200DA3FFA /* CCTool.m */; };
+		1426B53E21A033B300DA3FFA /* CCHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B51C21A033B200DA3FFA /* CCHexColor.m */; };
+		1426B53F21A033B300DA3FFA /* NSMutableString+CCMutableString.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B51E21A033B200DA3FFA /* NSMutableString+CCMutableString.m */; };
+		1426B54021A033B300DA3FFA /* NSMutableArray+CCMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B51F21A033B200DA3FFA /* NSMutableArray+CCMutableArray.m */; };
+		1426B54121A033B300DA3FFA /* NSObject+CCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B52321A033B200DA3FFA /* NSObject+CCObject.m */; };
+		1426B54221A033B300DA3FFA /* CCAlertButtonInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B52621A033B200DA3FFA /* CCAlertButtonInfo.m */; };
+		1426B54321A033B300DA3FFA /* NSMutableDictionary+CCMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B52721A033B200DA3FFA /* NSMutableDictionary+CCMutableDictionary.m */; };
+		1426B54421A033B300DA3FFA /* CCHomeBannerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B52A21A033B200DA3FFA /* CCHomeBannerInfo.m */; };
+		1426B54521A033B300DA3FFA /* CCCircleBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B52B21A033B200DA3FFA /* CCCircleBannerView.m */; };
+		1426B54621A033B300DA3FFA /* CCPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B52D21A033B200DA3FFA /* CCPageControl.m */; };
+		1426B54721A033B300DA3FFA /* CCHookScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B52F21A033B200DA3FFA /* CCHookScrollView.m */; };
+		1426B54821A033B300DA3FFA /* CCPageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B53221A033B200DA3FFA /* CCPageScrollView.m */; };
+		1426B54921A033B300DA3FFA /* CCLiveScrollBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B53421A033B200DA3FFA /* CCLiveScrollBanner.m */; };
+		1426B54C21A0360200DA3FFA /* CCBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B54B21A0360200DA3FFA /* CCBaseVC.m */; };
+		1426B55221A03D9100DA3FFA /* CCSegmentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B55121A03D9100DA3FFA /* CCSegmentVC.m */; };
+		1426B55C21A03E1400DA3FFA /* CCSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B55621A03E1400DA3FFA /* CCSegmentView.m */; };
+		1426B55D21A03E1400DA3FFA /* CCMenuInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B55821A03E1400DA3FFA /* CCMenuInfo.m */; };
+		1426B55E21A03E1400DA3FFA /* CCChoseMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B55921A03E1400DA3FFA /* CCChoseMenu.m */; };
+		1426B55F21A03E1400DA3FFA /* CCPopoverMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B55B21A03E1400DA3FFA /* CCPopoverMenuView.m */; };
+		1426B56221A04FF300DA3FFA /* CCWaterfallFlowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B56121A04FF300DA3FFA /* CCWaterfallFlowVC.m */; };
+		1426B56C21A0504D00DA3FFA /* CCRoomMarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B56521A0504D00DA3FFA /* CCRoomMarkView.m */; };
+		1426B56D21A0504D00DA3FFA /* CCFlexibleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B56621A0504D00DA3FFA /* CCFlexibleLayout.m */; };
+		1426B56E21A0504D00DA3FFA /* CCMyCollectInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B56721A0504D00DA3FFA /* CCMyCollectInfo.m */; };
+		1426B56F21A0504D00DA3FFA /* CCCircleShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B56921A0504D00DA3FFA /* CCCircleShareView.m */; };
+		1426B57221A05D8600DA3FFA /* CCCircleShareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B57121A05D8600DA3FFA /* CCCircleShareCell.m */; };
+		1426B57521A05E1E00DA3FFA /* CCEvaluateTagInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B57321A05E1D00DA3FFA /* CCEvaluateTagInfo.m */; };
+		1426B57821A05E8100DA3FFA /* CCFocusUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B57621A05E8000DA3FFA /* CCFocusUserInfo.m */; };
+		1426B57D21A0658A00DA3FFA /* waterfallFlow.json in Resources */ = {isa = PBXBuildFile; fileRef = 1426B57C21A0658A00DA3FFA /* waterfallFlow.json */; };
+		1426B58B21A0726200DA3FFA /* CCDanmakuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B58121A0726200DA3FFA /* CCDanmakuManager.m */; };
+		1426B58C21A0726200DA3FFA /* CCLiveAreaDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B58421A0726200DA3FFA /* CCLiveAreaDanmakuView.m */; };
+		1426B58D21A0726200DA3FFA /* CCDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B58721A0726200DA3FFA /* CCDanmakuView.m */; };
+		1426B58E21A0726200DA3FFA /* CCLiveAreaDanmakuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B58921A0726200DA3FFA /* CCLiveAreaDanmakuManager.m */; };
+		1426B58F21A0726200DA3FFA /* CCDanmuGiftInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B58A21A0726200DA3FFA /* CCDanmuGiftInfo.m */; };
+		2DF57D151D844A4CCFFB7811 /* libPods-CCDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 489AACE5A42D0B982DE8E0F5 /* libPods-CCDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +71,94 @@
 		1426B375219C0B9400DA3FFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1426B37C219C0C8F00DA3FFA /* CCMainTabVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCMainTabVC.h; sourceTree = "<group>"; };
 		1426B37D219C0C8F00DA3FFA /* CCMainTabVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCMainTabVC.m; sourceTree = "<group>"; };
+		1426B4F221A025D000DA3FFA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1426B50521A0300C00DA3FFA /* CCBannerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBannerVC.h; sourceTree = "<group>"; };
+		1426B50621A0300C00DA3FFA /* CCBannerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBannerVC.m; sourceTree = "<group>"; };
+		1426B50921A033B200DA3FFA /* UIView+CCBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CCBadge.m"; sourceTree = "<group>"; };
+		1426B50A21A033B200DA3FFA /* CCUtilsHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUtilsHeader.h; sourceTree = "<group>"; };
+		1426B50B21A033B200DA3FFA /* UIButton+CCEnlargeTouchArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CCEnlargeTouchArea.m"; sourceTree = "<group>"; };
+		1426B50C21A033B200DA3FFA /* CCHintHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHintHud.m; sourceTree = "<group>"; };
+		1426B50D21A033B200DA3FFA /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		1426B50E21A033B200DA3FFA /* CCUICreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUICreator.m; sourceTree = "<group>"; };
+		1426B50F21A033B200DA3FFA /* CCHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHexColor.h; sourceTree = "<group>"; };
+		1426B51021A033B200DA3FFA /* UIView+WhenTappedBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WhenTappedBlocks.m"; sourceTree = "<group>"; };
+		1426B51121A033B200DA3FFA /* UIImage+CCImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CCImage.m"; sourceTree = "<group>"; };
+		1426B51221A033B200DA3FFA /* CCTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTool.m; sourceTree = "<group>"; };
+		1426B51321A033B200DA3FFA /* CCConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCConfig.h; sourceTree = "<group>"; };
+		1426B51421A033B200DA3FFA /* UIView+CCBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CCBadge.h"; sourceTree = "<group>"; };
+		1426B51521A033B200DA3FFA /* CCUICreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUICreator.h; sourceTree = "<group>"; };
+		1426B51621A033B200DA3FFA /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		1426B51721A033B200DA3FFA /* CCHintHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHintHud.h; sourceTree = "<group>"; };
+		1426B51821A033B200DA3FFA /* UIButton+CCEnlargeTouchArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CCEnlargeTouchArea.h"; sourceTree = "<group>"; };
+		1426B51921A033B200DA3FFA /* CCTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTool.h; sourceTree = "<group>"; };
+		1426B51A21A033B200DA3FFA /* UIImage+CCImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CCImage.h"; sourceTree = "<group>"; };
+		1426B51B21A033B200DA3FFA /* UIView+WhenTappedBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WhenTappedBlocks.h"; sourceTree = "<group>"; };
+		1426B51C21A033B200DA3FFA /* CCHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHexColor.m; sourceTree = "<group>"; };
+		1426B51E21A033B200DA3FFA /* NSMutableString+CCMutableString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+CCMutableString.m"; sourceTree = "<group>"; };
+		1426B51F21A033B200DA3FFA /* NSMutableArray+CCMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+CCMutableArray.m"; sourceTree = "<group>"; };
+		1426B52021A033B200DA3FFA /* CCModelDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCModelDefines.h; sourceTree = "<group>"; };
+		1426B52121A033B200DA3FFA /* CCAlertButtonInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAlertButtonInfo.h; sourceTree = "<group>"; };
+		1426B52221A033B200DA3FFA /* NSMutableDictionary+CCMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+CCMutableDictionary.h"; sourceTree = "<group>"; };
+		1426B52321A033B200DA3FFA /* NSObject+CCObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CCObject.m"; sourceTree = "<group>"; };
+		1426B52421A033B200DA3FFA /* NSMutableArray+CCMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+CCMutableArray.h"; sourceTree = "<group>"; };
+		1426B52521A033B200DA3FFA /* NSMutableString+CCMutableString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+CCMutableString.h"; sourceTree = "<group>"; };
+		1426B52621A033B200DA3FFA /* CCAlertButtonInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAlertButtonInfo.m; sourceTree = "<group>"; };
+		1426B52721A033B200DA3FFA /* NSMutableDictionary+CCMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+CCMutableDictionary.m"; sourceTree = "<group>"; };
+		1426B52821A033B200DA3FFA /* NSObject+CCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CCObject.h"; sourceTree = "<group>"; };
+		1426B52A21A033B200DA3FFA /* CCHomeBannerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHomeBannerInfo.m; sourceTree = "<group>"; };
+		1426B52B21A033B200DA3FFA /* CCCircleBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCircleBannerView.m; sourceTree = "<group>"; };
+		1426B52C21A033B200DA3FFA /* CCPageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPageScrollView.h; sourceTree = "<group>"; };
+		1426B52D21A033B200DA3FFA /* CCPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPageControl.m; sourceTree = "<group>"; };
+		1426B52E21A033B200DA3FFA /* CCLiveScrollBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLiveScrollBanner.h; sourceTree = "<group>"; };
+		1426B52F21A033B200DA3FFA /* CCHookScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHookScrollView.m; sourceTree = "<group>"; };
+		1426B53021A033B200DA3FFA /* CCCircleBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCircleBannerView.h; sourceTree = "<group>"; };
+		1426B53121A033B200DA3FFA /* CCHomeBannerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHomeBannerInfo.h; sourceTree = "<group>"; };
+		1426B53221A033B200DA3FFA /* CCPageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPageScrollView.m; sourceTree = "<group>"; };
+		1426B53321A033B200DA3FFA /* CCHookScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHookScrollView.h; sourceTree = "<group>"; };
+		1426B53421A033B200DA3FFA /* CCLiveScrollBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLiveScrollBanner.m; sourceTree = "<group>"; };
+		1426B53521A033B200DA3FFA /* CCPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPageControl.h; sourceTree = "<group>"; };
+		1426B54A21A0360200DA3FFA /* CCBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBaseVC.h; sourceTree = "<group>"; };
+		1426B54B21A0360200DA3FFA /* CCBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBaseVC.m; sourceTree = "<group>"; };
+		1426B55021A03D9100DA3FFA /* CCSegmentVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCSegmentVC.h; sourceTree = "<group>"; };
+		1426B55121A03D9100DA3FFA /* CCSegmentVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCSegmentVC.m; sourceTree = "<group>"; };
+		1426B55421A03E1400DA3FFA /* CCChoseMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCChoseMenu.h; sourceTree = "<group>"; };
+		1426B55521A03E1400DA3FFA /* CCMenuInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMenuInfo.h; sourceTree = "<group>"; };
+		1426B55621A03E1400DA3FFA /* CCSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSegmentView.m; sourceTree = "<group>"; };
+		1426B55721A03E1400DA3FFA /* CCPopoverMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPopoverMenuView.h; sourceTree = "<group>"; };
+		1426B55821A03E1400DA3FFA /* CCMenuInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMenuInfo.m; sourceTree = "<group>"; };
+		1426B55921A03E1400DA3FFA /* CCChoseMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCChoseMenu.m; sourceTree = "<group>"; };
+		1426B55A21A03E1400DA3FFA /* CCSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSegmentView.h; sourceTree = "<group>"; };
+		1426B55B21A03E1400DA3FFA /* CCPopoverMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPopoverMenuView.m; sourceTree = "<group>"; };
+		1426B56021A04FF300DA3FFA /* CCWaterfallFlowVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCWaterfallFlowVC.h; sourceTree = "<group>"; };
+		1426B56121A04FF300DA3FFA /* CCWaterfallFlowVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCWaterfallFlowVC.m; sourceTree = "<group>"; };
+		1426B56421A0504D00DA3FFA /* CCCircleShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCircleShareView.h; sourceTree = "<group>"; };
+		1426B56521A0504D00DA3FFA /* CCRoomMarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCRoomMarkView.m; sourceTree = "<group>"; };
+		1426B56621A0504D00DA3FFA /* CCFlexibleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFlexibleLayout.m; sourceTree = "<group>"; };
+		1426B56721A0504D00DA3FFA /* CCMyCollectInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMyCollectInfo.m; sourceTree = "<group>"; };
+		1426B56821A0504D00DA3FFA /* CCRoomMarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRoomMarkView.h; sourceTree = "<group>"; };
+		1426B56921A0504D00DA3FFA /* CCCircleShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCircleShareView.m; sourceTree = "<group>"; };
+		1426B56A21A0504D00DA3FFA /* CCMyCollectInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMyCollectInfo.h; sourceTree = "<group>"; };
+		1426B56B21A0504D00DA3FFA /* CCFlexibleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFlexibleLayout.h; sourceTree = "<group>"; };
+		1426B57021A05D8600DA3FFA /* CCCircleShareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCircleShareCell.h; sourceTree = "<group>"; };
+		1426B57121A05D8600DA3FFA /* CCCircleShareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCircleShareCell.m; sourceTree = "<group>"; };
+		1426B57321A05E1D00DA3FFA /* CCEvaluateTagInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEvaluateTagInfo.m; sourceTree = "<group>"; };
+		1426B57421A05E1D00DA3FFA /* CCEvaluateTagInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEvaluateTagInfo.h; sourceTree = "<group>"; };
+		1426B57621A05E8000DA3FFA /* CCFocusUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFocusUserInfo.m; sourceTree = "<group>"; };
+		1426B57721A05E8000DA3FFA /* CCFocusUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFocusUserInfo.h; sourceTree = "<group>"; };
+		1426B57C21A0658A00DA3FFA /* waterfallFlow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = waterfallFlow.json; sourceTree = "<group>"; };
+		1426B58121A0726200DA3FFA /* CCDanmakuManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDanmakuManager.m; sourceTree = "<group>"; };
+		1426B58221A0726200DA3FFA /* CCDanmakuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDanmakuView.h; sourceTree = "<group>"; };
+		1426B58321A0726200DA3FFA /* CCLiveAreaDanmakuManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLiveAreaDanmakuManager.h; sourceTree = "<group>"; };
+		1426B58421A0726200DA3FFA /* CCLiveAreaDanmakuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLiveAreaDanmakuView.m; sourceTree = "<group>"; };
+		1426B58521A0726200DA3FFA /* CCDanmuGiftInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDanmuGiftInfo.h; sourceTree = "<group>"; };
+		1426B58621A0726200DA3FFA /* CCDanmakuManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDanmakuManager.h; sourceTree = "<group>"; };
+		1426B58721A0726200DA3FFA /* CCDanmakuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDanmakuView.m; sourceTree = "<group>"; };
+		1426B58821A0726200DA3FFA /* CCLiveAreaDanmakuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLiveAreaDanmakuView.h; sourceTree = "<group>"; };
+		1426B58921A0726200DA3FFA /* CCLiveAreaDanmakuManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLiveAreaDanmakuManager.m; sourceTree = "<group>"; };
+		1426B58A21A0726200DA3FFA /* CCDanmuGiftInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDanmuGiftInfo.m; sourceTree = "<group>"; };
+		489AACE5A42D0B982DE8E0F5 /* libPods-CCDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61EA88A33D75226D10890ACF /* Pods-CCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCDemo/Pods-CCDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A0AC825F03BE810D456CF143 /* Pods-CCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCDemo/Pods-CCDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF57D151D844A4CCFFB7811 /* libPods-CCDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +178,8 @@
 			children = (
 				1426B365219C0B9300DA3FFA /* CCDemo */,
 				1426B364219C0B9300DA3FFA /* Products */,
+				3E5B9680B38EE99E5B78556D /* Pods */,
+				8DE2A384214008308E457B4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +194,191 @@
 		1426B365219C0B9300DA3FFA /* CCDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1426B58021A0726100DA3FFA /* CCLiveAreaDanmaku */,
+				1426B56321A0504D00DA3FFA /* CCCustomLayout */,
+				1426B55321A03E1400DA3FFA /* CCSegment */,
+				1426B52921A033B200DA3FFA /* CCGestureScroll */,
+				1426B51D21A033B200DA3FFA /* CCModels */,
+				1426B50821A033B200DA3FFA /* CCUtils */,
 				1426B366219C0B9300DA3FFA /* AppDelegate.h */,
 				1426B367219C0B9300DA3FFA /* AppDelegate.m */,
 				1426B369219C0B9300DA3FFA /* ViewController.h */,
 				1426B36A219C0B9300DA3FFA /* ViewController.m */,
+				1426B37C219C0C8F00DA3FFA /* CCMainTabVC.h */,
+				1426B37D219C0C8F00DA3FFA /* CCMainTabVC.m */,
+				1426B50421A02E8300DA3FFA /* CCScroll */,
 				1426B36C219C0B9300DA3FFA /* Main.storyboard */,
 				1426B36F219C0B9400DA3FFA /* Assets.xcassets */,
 				1426B371219C0B9400DA3FFA /* LaunchScreen.storyboard */,
 				1426B374219C0B9400DA3FFA /* Info.plist */,
 				1426B375219C0B9400DA3FFA /* main.m */,
-				1426B37C219C0C8F00DA3FFA /* CCMainTabVC.h */,
-				1426B37D219C0C8F00DA3FFA /* CCMainTabVC.m */,
+				1426B4F221A025D000DA3FFA /* PrefixHeader.pch */,
 			);
 			path = CCDemo;
+			sourceTree = "<group>";
+		};
+		1426B50421A02E8300DA3FFA /* CCScroll */ = {
+			isa = PBXGroup;
+			children = (
+				1426B57921A064A900DA3FFA /* SimulationData */,
+				1426B54A21A0360200DA3FFA /* CCBaseVC.h */,
+				1426B54B21A0360200DA3FFA /* CCBaseVC.m */,
+				1426B50521A0300C00DA3FFA /* CCBannerVC.h */,
+				1426B50621A0300C00DA3FFA /* CCBannerVC.m */,
+				1426B55021A03D9100DA3FFA /* CCSegmentVC.h */,
+				1426B55121A03D9100DA3FFA /* CCSegmentVC.m */,
+				1426B56021A04FF300DA3FFA /* CCWaterfallFlowVC.h */,
+				1426B56121A04FF300DA3FFA /* CCWaterfallFlowVC.m */,
+			);
+			path = CCScroll;
+			sourceTree = "<group>";
+		};
+		1426B50821A033B200DA3FFA /* CCUtils */ = {
+			isa = PBXGroup;
+			children = (
+				1426B51321A033B200DA3FFA /* CCConfig.h */,
+				1426B50F21A033B200DA3FFA /* CCHexColor.h */,
+				1426B51C21A033B200DA3FFA /* CCHexColor.m */,
+				1426B51721A033B200DA3FFA /* CCHintHud.h */,
+				1426B50C21A033B200DA3FFA /* CCHintHud.m */,
+				1426B51921A033B200DA3FFA /* CCTool.h */,
+				1426B51221A033B200DA3FFA /* CCTool.m */,
+				1426B51521A033B200DA3FFA /* CCUICreator.h */,
+				1426B50E21A033B200DA3FFA /* CCUICreator.m */,
+				1426B50A21A033B200DA3FFA /* CCUtilsHeader.h */,
+				1426B51821A033B200DA3FFA /* UIButton+CCEnlargeTouchArea.h */,
+				1426B50B21A033B200DA3FFA /* UIButton+CCEnlargeTouchArea.m */,
+				1426B51A21A033B200DA3FFA /* UIImage+CCImage.h */,
+				1426B51121A033B200DA3FFA /* UIImage+CCImage.m */,
+				1426B51621A033B200DA3FFA /* UIView+Additions.h */,
+				1426B50D21A033B200DA3FFA /* UIView+Additions.m */,
+				1426B51421A033B200DA3FFA /* UIView+CCBadge.h */,
+				1426B50921A033B200DA3FFA /* UIView+CCBadge.m */,
+				1426B51B21A033B200DA3FFA /* UIView+WhenTappedBlocks.h */,
+				1426B51021A033B200DA3FFA /* UIView+WhenTappedBlocks.m */,
+			);
+			name = CCUtils;
+			path = CCComponents/CCUtils;
+			sourceTree = "<group>";
+		};
+		1426B51D21A033B200DA3FFA /* CCModels */ = {
+			isa = PBXGroup;
+			children = (
+				1426B51E21A033B200DA3FFA /* NSMutableString+CCMutableString.m */,
+				1426B51F21A033B200DA3FFA /* NSMutableArray+CCMutableArray.m */,
+				1426B52021A033B200DA3FFA /* CCModelDefines.h */,
+				1426B52121A033B200DA3FFA /* CCAlertButtonInfo.h */,
+				1426B52221A033B200DA3FFA /* NSMutableDictionary+CCMutableDictionary.h */,
+				1426B52321A033B200DA3FFA /* NSObject+CCObject.m */,
+				1426B52421A033B200DA3FFA /* NSMutableArray+CCMutableArray.h */,
+				1426B52521A033B200DA3FFA /* NSMutableString+CCMutableString.h */,
+				1426B52621A033B200DA3FFA /* CCAlertButtonInfo.m */,
+				1426B52721A033B200DA3FFA /* NSMutableDictionary+CCMutableDictionary.m */,
+				1426B52821A033B200DA3FFA /* NSObject+CCObject.h */,
+			);
+			name = CCModels;
+			path = CCComponents/CCModels;
+			sourceTree = "<group>";
+		};
+		1426B52921A033B200DA3FFA /* CCGestureScroll */ = {
+			isa = PBXGroup;
+			children = (
+				1426B53021A033B200DA3FFA /* CCCircleBannerView.h */,
+				1426B52B21A033B200DA3FFA /* CCCircleBannerView.m */,
+				1426B53121A033B200DA3FFA /* CCHomeBannerInfo.h */,
+				1426B52A21A033B200DA3FFA /* CCHomeBannerInfo.m */,
+				1426B53321A033B200DA3FFA /* CCHookScrollView.h */,
+				1426B52F21A033B200DA3FFA /* CCHookScrollView.m */,
+				1426B52E21A033B200DA3FFA /* CCLiveScrollBanner.h */,
+				1426B53421A033B200DA3FFA /* CCLiveScrollBanner.m */,
+				1426B53521A033B200DA3FFA /* CCPageControl.h */,
+				1426B52D21A033B200DA3FFA /* CCPageControl.m */,
+				1426B52C21A033B200DA3FFA /* CCPageScrollView.h */,
+				1426B53221A033B200DA3FFA /* CCPageScrollView.m */,
+			);
+			name = CCGestureScroll;
+			path = CCComponents/CCGestureScroll;
+			sourceTree = "<group>";
+		};
+		1426B55321A03E1400DA3FFA /* CCSegment */ = {
+			isa = PBXGroup;
+			children = (
+				1426B55421A03E1400DA3FFA /* CCChoseMenu.h */,
+				1426B55921A03E1400DA3FFA /* CCChoseMenu.m */,
+				1426B55521A03E1400DA3FFA /* CCMenuInfo.h */,
+				1426B55821A03E1400DA3FFA /* CCMenuInfo.m */,
+				1426B55721A03E1400DA3FFA /* CCPopoverMenuView.h */,
+				1426B55B21A03E1400DA3FFA /* CCPopoverMenuView.m */,
+				1426B55A21A03E1400DA3FFA /* CCSegmentView.h */,
+				1426B55621A03E1400DA3FFA /* CCSegmentView.m */,
+			);
+			name = CCSegment;
+			path = CCComponents/CCSegment;
+			sourceTree = "<group>";
+		};
+		1426B56321A0504D00DA3FFA /* CCCustomLayout */ = {
+			isa = PBXGroup;
+			children = (
+				1426B57721A05E8000DA3FFA /* CCFocusUserInfo.h */,
+				1426B57621A05E8000DA3FFA /* CCFocusUserInfo.m */,
+				1426B57421A05E1D00DA3FFA /* CCEvaluateTagInfo.h */,
+				1426B57321A05E1D00DA3FFA /* CCEvaluateTagInfo.m */,
+				1426B57021A05D8600DA3FFA /* CCCircleShareCell.h */,
+				1426B57121A05D8600DA3FFA /* CCCircleShareCell.m */,
+				1426B56421A0504D00DA3FFA /* CCCircleShareView.h */,
+				1426B56921A0504D00DA3FFA /* CCCircleShareView.m */,
+				1426B56B21A0504D00DA3FFA /* CCFlexibleLayout.h */,
+				1426B56621A0504D00DA3FFA /* CCFlexibleLayout.m */,
+				1426B56A21A0504D00DA3FFA /* CCMyCollectInfo.h */,
+				1426B56721A0504D00DA3FFA /* CCMyCollectInfo.m */,
+				1426B56821A0504D00DA3FFA /* CCRoomMarkView.h */,
+				1426B56521A0504D00DA3FFA /* CCRoomMarkView.m */,
+			);
+			name = CCCustomLayout;
+			path = CCComponents/CCCustomLayout;
+			sourceTree = "<group>";
+		};
+		1426B57921A064A900DA3FFA /* SimulationData */ = {
+			isa = PBXGroup;
+			children = (
+				1426B57C21A0658A00DA3FFA /* waterfallFlow.json */,
+			);
+			path = SimulationData;
+			sourceTree = "<group>";
+		};
+		1426B58021A0726100DA3FFA /* CCLiveAreaDanmaku */ = {
+			isa = PBXGroup;
+			children = (
+				1426B58221A0726200DA3FFA /* CCDanmakuView.h */,
+				1426B58721A0726200DA3FFA /* CCDanmakuView.m */,
+				1426B58521A0726200DA3FFA /* CCDanmuGiftInfo.h */,
+				1426B58A21A0726200DA3FFA /* CCDanmuGiftInfo.m */,
+				1426B58621A0726200DA3FFA /* CCDanmakuManager.h */,
+				1426B58121A0726200DA3FFA /* CCDanmakuManager.m */,
+				1426B58321A0726200DA3FFA /* CCLiveAreaDanmakuManager.h */,
+				1426B58921A0726200DA3FFA /* CCLiveAreaDanmakuManager.m */,
+				1426B58821A0726200DA3FFA /* CCLiveAreaDanmakuView.h */,
+				1426B58421A0726200DA3FFA /* CCLiveAreaDanmakuView.m */,
+			);
+			name = CCLiveAreaDanmaku;
+			path = CCComponents/CCLiveAreaDanmaku;
+			sourceTree = "<group>";
+		};
+		3E5B9680B38EE99E5B78556D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0AC825F03BE810D456CF143 /* Pods-CCDemo.debug.xcconfig */,
+				61EA88A33D75226D10890ACF /* Pods-CCDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8DE2A384214008308E457B4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				489AACE5A42D0B982DE8E0F5 /* libPods-CCDemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +388,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1426B379219C0B9400DA3FFA /* Build configuration list for PBXNativeTarget "CCDemo" */;
 			buildPhases = (
+				AE344753FD083F0940754987 /* [CP] Check Pods Manifest.lock */,
 				1426B35F219C0B9300DA3FFA /* Sources */,
 				1426B360219C0B9300DA3FFA /* Frameworks */,
 				1426B361219C0B9300DA3FFA /* Resources */,
+				B2638407423E1EBA6E0AB001 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +440,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1426B57D21A0658A00DA3FFA /* waterfallFlow.json in Resources */,
 				1426B373219C0B9400DA3FFA /* LaunchScreen.storyboard in Resources */,
 				1426B370219C0B9400DA3FFA /* Assets.xcassets in Resources */,
 				1426B36E219C0B9300DA3FFA /* Main.storyboard in Resources */,
@@ -141,15 +449,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AE344753FD083F0940754987 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2638407423E1EBA6E0AB001 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CCDemo/Pods-CCDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCDemo/Pods-CCDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1426B35F219C0B9300DA3FFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1426B53821A033B300DA3FFA /* CCHintHud.m in Sources */,
+				1426B53C21A033B300DA3FFA /* UIImage+CCImage.m in Sources */,
+				1426B54621A033B300DA3FFA /* CCPageControl.m in Sources */,
+				1426B54421A033B300DA3FFA /* CCHomeBannerInfo.m in Sources */,
+				1426B54521A033B300DA3FFA /* CCCircleBannerView.m in Sources */,
+				1426B54C21A0360200DA3FFA /* CCBaseVC.m in Sources */,
+				1426B55F21A03E1400DA3FFA /* CCPopoverMenuView.m in Sources */,
+				1426B56221A04FF300DA3FFA /* CCWaterfallFlowVC.m in Sources */,
 				1426B36B219C0B9300DA3FFA /* ViewController.m in Sources */,
+				1426B55E21A03E1400DA3FFA /* CCChoseMenu.m in Sources */,
+				1426B53D21A033B300DA3FFA /* CCTool.m in Sources */,
+				1426B56C21A0504D00DA3FFA /* CCRoomMarkView.m in Sources */,
+				1426B58C21A0726200DA3FFA /* CCLiveAreaDanmakuView.m in Sources */,
+				1426B55D21A03E1400DA3FFA /* CCMenuInfo.m in Sources */,
+				1426B58E21A0726200DA3FFA /* CCLiveAreaDanmakuManager.m in Sources */,
+				1426B57821A05E8100DA3FFA /* CCFocusUserInfo.m in Sources */,
+				1426B54321A033B300DA3FFA /* NSMutableDictionary+CCMutableDictionary.m in Sources */,
+				1426B53A21A033B300DA3FFA /* CCUICreator.m in Sources */,
+				1426B53B21A033B300DA3FFA /* UIView+WhenTappedBlocks.m in Sources */,
+				1426B56F21A0504D00DA3FFA /* CCCircleShareView.m in Sources */,
+				1426B56D21A0504D00DA3FFA /* CCFlexibleLayout.m in Sources */,
+				1426B56E21A0504D00DA3FFA /* CCMyCollectInfo.m in Sources */,
+				1426B55221A03D9100DA3FFA /* CCSegmentVC.m in Sources */,
+				1426B54821A033B300DA3FFA /* CCPageScrollView.m in Sources */,
+				1426B53721A033B300DA3FFA /* UIButton+CCEnlargeTouchArea.m in Sources */,
+				1426B53921A033B300DA3FFA /* UIView+Additions.m in Sources */,
 				1426B376219C0B9400DA3FFA /* main.m in Sources */,
+				1426B53F21A033B300DA3FFA /* NSMutableString+CCMutableString.m in Sources */,
+				1426B54221A033B300DA3FFA /* CCAlertButtonInfo.m in Sources */,
+				1426B58F21A0726200DA3FFA /* CCDanmuGiftInfo.m in Sources */,
+				1426B55C21A03E1400DA3FFA /* CCSegmentView.m in Sources */,
 				1426B368219C0B9300DA3FFA /* AppDelegate.m in Sources */,
+				1426B57221A05D8600DA3FFA /* CCCircleShareCell.m in Sources */,
+				1426B54121A033B300DA3FFA /* NSObject+CCObject.m in Sources */,
+				1426B54921A033B300DA3FFA /* CCLiveScrollBanner.m in Sources */,
+				1426B54721A033B300DA3FFA /* CCHookScrollView.m in Sources */,
+				1426B50721A0300C00DA3FFA /* CCBannerVC.m in Sources */,
+				1426B53E21A033B300DA3FFA /* CCHexColor.m in Sources */,
+				1426B58D21A0726200DA3FFA /* CCDanmakuView.m in Sources */,
+				1426B53621A033B300DA3FFA /* UIView+CCBadge.m in Sources */,
+				1426B54021A033B300DA3FFA /* NSMutableArray+CCMutableArray.m in Sources */,
 				1426B37E219C0C8F00DA3FFA /* CCMainTabVC.m in Sources */,
+				1426B57521A05E1E00DA3FFA /* CCEvaluateTagInfo.m in Sources */,
+				1426B58B21A0726200DA3FFA /* CCDanmakuManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,35 +676,41 @@
 		};
 		1426B37A219C0B9400DA3FFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0AC825F03BE810D456CF143 /* Pods-CCDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = L8VHAB6CD6;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CCDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = CCDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chenggd.CCDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beautybee.travel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
 			};
 			name = Debug;
 		};
 		1426B37B219C0B9400DA3FFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61EA88A33D75226D10890ACF /* Pods-CCDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = L8VHAB6CD6;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CCDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = CCDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chenggd.CCDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beautybee.travel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
 			};
 			name = Release;
 		};
