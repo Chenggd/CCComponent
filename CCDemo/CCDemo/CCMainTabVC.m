@@ -21,14 +21,24 @@
     [super viewDidLoad];
     self.title = @"CCDemo";
     
+    NSDictionary *dic = @{@"haha":@"haha"};
+    NSLog(@"%p",dic);
+    NSDictionary *aa = [dic copy];
+    NSLog(@"%p",aa);
+    dic = @{@"haha":@"111"};
+    NSMutableDictionary *dic1 = [dic mutableCopy];
+    NSLog(@"%p",dic1);
+    [dic1 setObject:@"enen" forKey:@"222"];
+    NSLog(@"%@,%p--%p--%p",dic,dic,aa,dic1);
+    
     self.titles = @[].mutableCopy;
     self.classNames = @[].mutableCopy;
     
     [self addCell:@"Banner视图" class:@"CCBannerVC"];
     [self addCell:@"菜单栏" class:@"CCSegmentVC"];
     [self addCell:@"不规则等宽瀑布流" class:@"CCWaterfallFlowVC"];
-    [self addCell:@"ScrollView多级嵌套" class:@"CCScrollVC"];
-    [self addCell:@"弹幕" class:@"CCGiftAnimationsExample"];
+    [self addCell:@"ScrollView多级嵌套" class:@"CCSomeScrollVC"];
+    [self addCell:@"弹幕" class:@"CCDanmakuVC"];
     [self addCell:@"直播动效" class:@"CCGiftAnimationsExample"];
     
     [self.tableView reloadData];

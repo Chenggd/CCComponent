@@ -19,6 +19,7 @@ typedef void (^tapLiveBannerBlock)(CCHomeBannerInfo *info);
 @property (nonatomic, strong) NSMutableArray *bannerData;
 @property (nonatomic, assign) NSInteger curIndex;
 @property (nonatomic, assign) BOOL autoScroll;
+@property (nonatomic, assign) float radius;
 @property (nonatomic, copy) tapLiveBannerBlock tapLiveBannerBlock;
 
 - (void)clearAllBanner;

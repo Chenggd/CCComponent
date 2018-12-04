@@ -156,10 +156,12 @@
         return;
     }
     _beStart = YES;
+    
     for (int i=0; i<3; i++) {
         //随机设置弹道速率
         [self setupSpeedByTrajectory:i];
-        //装载弹道 0、1为普通弹道 3为礼物弹道
+        //装载弹道 0、1为普通弹道 3为礼物弹道，展示规则不一样
+        //后续优化为可根据需求设置多个弹道，即每条弹道所属规则与数据对应
         [self creatDanmakuViewByTrajectory:i];
     }
 }
@@ -191,7 +193,7 @@
     _giftIndex = 0;
     [_giftDanmakuViews makeObjectsPerformSelector:@selector(stopDanmakuAnimation)];
     [_giftDanmakuViews removeAllObjects];
-    //只显示一次啊～～
+    //只显示一次～～
     [_giftDanmakus removeAllObjects];
 }
 

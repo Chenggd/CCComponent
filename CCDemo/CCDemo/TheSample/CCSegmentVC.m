@@ -108,14 +108,15 @@
 
 - (CCSegmentView *)segmentView {
     if (!_segmentView) {
-        _segmentView = [[CCSegmentView alloc] initWithItems:nil style:1];
-        _segmentView.lineColor = [UIColor colorWithHexString:@"ff3b42"];
+        _segmentView = [[CCSegmentView alloc] initWithItems:nil style:0];
+        _segmentView.lineColor = [UIColor colorWithHexString:@"ffd500"];
         _segmentView.itemHeight = 44;
         _segmentView.needChange = YES;
         _segmentView.itemFont = 18;
         _segmentView.itemSelectFont = 18;
         _segmentView.lineSpaceForBottom = 3;
         [_segmentView setLineHeight:4];
+        [_segmentView setLineWidth:60];
         [_segmentView setItems:_menuItems];
         //        CCWS(weakSelf)
         [_segmentView setClickItemBlock:^(NSInteger index) {

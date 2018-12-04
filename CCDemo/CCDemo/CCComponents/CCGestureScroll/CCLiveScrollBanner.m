@@ -34,6 +34,7 @@
     if (self = [super initWithFrame:frame]) {
         [self addSubview:self.bgScrollView];
         [self addSubview:self.pageControl];
+        _radius = 0;
         _defaultIcon = [UIImage imageWithColor:[UIColor colorWithHexString:@"f4f4f4"]];
     }
     return self;
@@ -91,7 +92,9 @@
         for (int i=0; i<baseItem; i++) {
             UIImageView *cycleImg = [UIImageView createF:(CGRect){i*_bgScrollView.width,0,_bgScrollView.width,_bgScrollView.height} Img:_defaultIcon];
             [cycleImg setBackgroundColor:[UIColor clearColor]];
-            kViewRadius(cycleImg, 5.f);
+            if (_radius > 0) {
+                kViewRadius(cycleImg, _radius);
+            }
             [_bgScrollView addSubview:cycleImg];
             if (baseItem == 1) {
                 _centerImg = cycleImg;

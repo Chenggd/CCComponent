@@ -11,7 +11,7 @@
 
 /**
  需要优化为可配置选项便于适配不同业务，目前为定义了一些常用业务
- （可配元素：带icon，带add按钮，文字大小、颜色，背景颜色，左/右对齐布局）
+ （可配元素：带icon，带add按钮，文字大小、颜色，背景颜色，左/右对齐布局，间距等）
  */
 typedef NS_ENUM(NSInteger, CCSMarkType) {   //标签类型
     CCRoomMarkType = 1,                     //房间

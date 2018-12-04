@@ -9,7 +9,6 @@
 #import "CCRoomMarkView.h"
 #import "UIView+WhenTappedBlocks.h"
 
-
 @interface CCRoomMarkLayout : UICollectionViewFlowLayout
 
 @property (nonatomic) CGFloat maximumInteritemSpacing;

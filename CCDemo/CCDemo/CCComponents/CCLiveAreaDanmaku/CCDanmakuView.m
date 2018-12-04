@@ -113,11 +113,14 @@
         reltext = [NSString stringWithFormat:@"%@送了一个%@",_info.from_nickname,_info.gift_name];
         attr = [[NSMutableAttributedString alloc] initWithString:reltext];
         attr.yy_font = kBoldHelvetica(18);
-        NSRange leftRange = [reltext rangeOfString:_info.from_nickname];
-        NSRange rightRange = [reltext rangeOfString:_info.gift_name];
-        [attr yy_setColor:[UIColor colorWithHexString:@"ffffff"] range:NSMakeRange(0, reltext.length)];
-        [attr yy_setColor:[UIColor colorWithHexString:@"ffd500"] range:leftRange];
-        [attr yy_setColor:[UIColor colorWithHexString:@"ffd500"] range:rightRange];
+        if ([CCTool isNotBlank:_info.from_nickname]
+            && [CCTool isNotBlank:_info.gift_name]) {
+            NSRange leftRange = [reltext rangeOfString:_info.from_nickname];
+            NSRange rightRange = [reltext rangeOfString:_info.gift_name];
+            [attr yy_setColor:[UIColor colorWithHexString:@"ffffff"] range:NSMakeRange(0, reltext.length)];
+            [attr yy_setColor:[UIColor colorWithHexString:@"ffd500"] range:leftRange];
+            [attr yy_setColor:[UIColor colorWithHexString:@"ffd500"] range:rightRange];
+        }
     } else if (_trajectory == 3) { //直播间全区弹幕
         if ([CCTool isNotBlank:_info.content]) {
             reltext = _info.content;

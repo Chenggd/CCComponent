@@ -63,6 +63,7 @@
 - (CCLiveScrollBanner *)twoBanner {
     if (!_twoBanner) {
         _twoBanner = [[CCLiveScrollBanner alloc] initWithFrame:(CGRect){(kScreenWidth-300)/2,_oneBanner.bottom+50,300,180}];
+        _twoBanner.radius = 5.f;
         [_twoBanner setTapLiveBannerBlock:^(CCHomeBannerInfo *info) {
             if ([CCTool isNotBlank:info.linkUrl]) {
                 NSLog(@"点击");

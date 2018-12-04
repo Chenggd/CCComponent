@@ -17,7 +17,7 @@
 #define itemDefaultSFont 15
 #define itemSpaceLineWidth 1
 #define itemDefaultColor [UIColor colorWithHexString:@"81807B" alpha:1]
-#define itemDefaultSColor [UIColor colorWithHexString:@"38362A" alpha:1]
+#define itemDefaultSColor [UIColor colorWithHexString:@"cc120e" alpha:1]
 #define itemLucencyColor [UIColor colorWithHexString:@"ffffff" alpha:0.7]
 #define itemLucencySColor [UIColor colorWithHexString:@"ffffff" alpha:1]
 #define itemLineSColor [UIColor colorWithHexString:@"ffd500" alpha:1]
@@ -30,7 +30,7 @@ typedef NS_ENUM(NSInteger, CCSegmentScrollDirection) {
 
 @interface CCSegmentView ()
 
-@property (nonatomic, strong) NSMutableArray *itemCCns;
+@property (nonatomic, strong) NSMutableArray *itemBtns;
 @property (nonatomic, strong) UIButton *lastSelectItem;
 @property (nonatomic, assign) NSInteger selectIndex;
 @property (nonatomic, strong) UIView *lineView;
@@ -70,7 +70,7 @@ typedef NS_ENUM(NSInteger, CCSegmentScrollDirection) {
         self.lineColor = itemLineSColor;
         self.lineSpaceForBottom = 0;
         self.style = style;
-        self.itemCCns = [NSMutableArray arrayWithCapacity:0];
+        self.itemBtns = [NSMutableArray arrayWithCapacity:0];
         self.items = [NSMutableArray arrayWithArray:items];
         self.backgroundColor = [UIColor clearColor];
         
@@ -89,7 +89,7 @@ typedef NS_ENUM(NSInteger, CCSegmentScrollDirection) {
     NSArray *colorArray = nil;
     if (colorSpaceModel == kCGColorSpaceModelRGB ||
         colorSpaceModel == kCGColorSpaceModelMonochrome) {
-        CGFloat r,g,b,a;
+        CGFloat r = 0.0,g = 0.0,b = 0.0,a;
         const CGFloat *components = CGColorGetComponents(color.CGColor);
         switch (colorSpaceModel) {
                 //单色图
@@ -139,33 +139,33 @@ typedef NS_ENUM(NSInteger, CCSegmentScrollDirection) {
 }
 
 - (void)configItem {
-    [self.itemCCns removeAllObjects];
+    [self.itemBtns removeAllObjects];
     [self removeAllSubViews];
     [self setFrame:(CGRect){0,0,self.itemWidth*self.items.count+(self.items.count-itemSpaceLineWidth)*itemSpaceLineWidth,self.itemHeight}];
     [self addSubview:self.lineView];
     for (int i=0; i<self.items.count; i++) {
-        UIButton *CCn = [UIButton createT:self.items[i] C:self.itemColor ST:self.items[i] SC:self.itemSelectColor];
-        CCn.titleLabel.backgroundColor = [UIColor clearColor];
-        [CCn setTag:200+i];
-        CCn.titleLabel.font = kBoldHelvetica(self.itemFont);
-        [CCn addTarget:self action:@selector(clickItem:) forControlEvents:UIControlEventTouchUpInside];
-        [CCn setFrame:(CGRect){i*(self.itemWidth+itemSpaceLineWidth),0,self.itemWidth,self.height}];
-        //shadowOffset阴影偏移,x向右偏移4，y向下偏移4，默认(0, -3),这个跟shadowRadius配合使用
-        CCn.titleLabel.layer.shadowColor = [UIColor colorWithHexString:@"38362a" alpha:0.9].CGColor;
-        CCn.titleLabel.layer.shadowOffset = CGSizeMake(0,0);
-        CCn.titleLabel.layer.shadowRadius = 2;
-        CCn.titleLabel.layer.shadowOpacity = 0;
-        [self addSubview:CCn];
-        [self.itemCCns addObject:CCn];
+        UIButton *btn = [UIButton createT:self.items[i] C:self.itemColor ST:self.items[i] SC:self.itemSelectColor];
+        btn.titleLabel.backgroundColor = [UIColor clearColor];
+        [btn setTag:200+i];
+        btn.titleLabel.font = kBoldHelvetica(self.itemFont);
+        [btn addTarget:self action:@selector(clickItem:) forControlEvents:UIControlEventTouchUpInside];
+        [btn setFrame:(CGRect){i*(self.itemWidth+itemSpaceLineWidth),0,self.itemWidth,self.height}];
+        //shadowOffset阴影偏移
+        btn.titleLabel.layer.shadowColor = [UIColor colorWithHexString:@"cc120e" alpha:0.9].CGColor;
+        btn.titleLabel.layer.shadowOffset = CGSizeMake(0,0);
+        btn.titleLabel.layer.shadowRadius = 2;
+        btn.titleLabel.layer.shadowOpacity = 0;
+        [self addSubview:btn];
+        [self.itemBtns addObject:btn];
 //        if (i != (self.items.count-1)) {
-//            UIView *spaceLine = [UIView createF:(CGRect){CCn.right,(self.height-7)/2,itemSpaceLineWidth,7} BC:[UIColor colorWithHexString:@"ffffff" alpha:0.5]];
+//            UIView *spaceLine = [UIView createF:(CGRect){Btn.right,(self.height-7)/2,itemSpaceLineWidth,7} BC:[UIColor colorWithHexString:@"ffffff" alpha:0.5]];
 //            [self addSubview:spaceLine];
 //        }
         if (i == 0) {
             _selectIndex = 0;
-            CCn.selected = YES;
-            CCn.titleLabel.font = kBoldHelvetica(self.itemSelectFont);
-            self.lastSelectItem = CCn;
+            btn.selected = YES;
+            btn.titleLabel.font = kBoldHelvetica(self.itemSelectFont);
+            self.lastSelectItem = btn;
         }
     }
     [self refreshLineCenter];
@@ -244,16 +244,16 @@ typedef NS_ENUM(NSInteger, CCSegmentScrollDirection) {
     _selectIndex = self.lastSelectItem.tag-200;
    //刷新样式
     if (self.needChange) {
-        [self.itemCCns enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-            UIButton *CCn = (UIButton *)obj;
+        [self.itemBtns enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            UIButton *Btn = (UIButton *)obj;
             if ((self.lastSelectItem.tag-200) != 2) {
-                [CCn setTitleColor:self.itemColor forState:UIControlStateNormal];
-                [CCn setTitleColor:self.itemSelectColor forState:UIControlStateSelected];
-                CCn.titleLabel.layer.shadowOpacity = 0;
+                [Btn setTitleColor:self.itemColor forState:UIControlStateNormal];
+                [Btn setTitleColor:self.itemSelectColor forState:UIControlStateSelected];
+                Btn.titleLabel.layer.shadowOpacity = 0;
             } else {
-                CCn.titleLabel.layer.shadowOpacity = 0.6;
-                [CCn setTitleColor:itemLucencyColor forState:UIControlStateNormal];
-                [CCn setTitleColor:itemLucencySColor forState:UIControlStateSelected];
+                Btn.titleLabel.layer.shadowOpacity = 0.6;
+                [Btn setTitleColor:itemLucencyColor forState:UIControlStateNormal];
+                [Btn setTitleColor:itemLucencySColor forState:UIControlStateSelected];
             }
         }];
     }
@@ -319,8 +319,8 @@ typedef NS_ENUM(NSInteger, CCSegmentScrollDirection) {
                 moveX = _newOffsetX-nextIndex*self.outScrollView.width;
             }
             //颜色渐变动画
-            UIButton *CCn = _itemCCns[relIndex];
-            UIButton *nextCCn = _itemCCns[nextIndex];
+            UIButton *Btn = _itemBtns[relIndex];
+            UIButton *nextBtn = _itemBtns[nextIndex];
             float haha0 = ([_itemSelectColorRGB[0] floatValue]-[_colorDivideDelta[0] floatValue]*moveX)/255.f;
             float haha1 = ([_itemSelectColorRGB[1] floatValue]-[_colorDivideDelta[1] floatValue]*moveX)/255.f;
             float haha2 = ([_itemSelectColorRGB[2] floatValue]-[_colorDivideDelta[2] floatValue]*moveX)/255.f;
@@ -331,11 +331,11 @@ typedef NS_ENUM(NSInteger, CCSegmentScrollDirection) {
             UIColor *nextIndexColor = [UIColor colorWithRed:color0 green:color1 blue:color2 alpha:1];
             if (relIndex != nextIndex) { //到达分界线后颜色的问题
                 if (direction == CCSegmentScrollToLeft) {
-                    CCn.titleLabel.textColor = indexColor;
-                    nextCCn.titleLabel.textColor = nextIndexColor;
+                    Btn.titleLabel.textColor = indexColor;
+                    nextBtn.titleLabel.textColor = nextIndexColor;
                 } else {
-                    nextCCn.titleLabel.textColor = indexColor;
-                    CCn.titleLabel.textColor = nextIndexColor;
+                    nextBtn.titleLabel.textColor = indexColor;
+                    Btn.titleLabel.textColor = nextIndexColor;
                 }
             }
             //线动画
@@ -347,9 +347,9 @@ typedef NS_ENUM(NSInteger, CCSegmentScrollDirection) {
 //                _lineView.transform = CGAffineTransformMakeScale((1+targetTx)-relfangda, 1);
                 [_lineView setWidth:((1+targetTx)-relfangda)*_lineWidth];
                 if (direction == CCSegmentScrollToLeft) {
-                    [_lineView setRight:nextCCn.center.x+_lineWidth/2];
+                    [_lineView setRight:nextBtn.center.x+_lineWidth/2];
                 } else {
-                    [_lineView setRight:CCn.center.x+_lineWidth/2];
+                    [_lineView setRight:Btn.center.x+_lineWidth/2];
                 }
             } else {
                 float relMoveX = moveX;
@@ -357,9 +357,9 @@ typedef NS_ENUM(NSInteger, CCSegmentScrollDirection) {
 //                _lineView.transform = CGAffineTransformMakeScale(1+relfangda, 1);
                 [_lineView setWidth:(1+relfangda)*_lineWidth];
                 if (direction == CCSegmentScrollToLeft) {
-                    [_lineView setX:CCn.center.x-_lineWidth/2];
+                    [_lineView setX:Btn.center.x-_lineWidth/2];
                 } else {
-                    [_lineView setX:nextCCn.center.x-_lineWidth/2];
+                    [_lineView setX:nextBtn.center.x-_lineWidth/2];
                 }
             }
         }
@@ -368,20 +368,20 @@ typedef NS_ENUM(NSInteger, CCSegmentScrollDirection) {
 }
 
 - (void)selectSegmentIndex:(NSInteger)index {
-    if (_itemCCns.count) {
-        UIButton *itemCCn = (UIButton *)_itemCCns[index];
-        [self refreshItemStatus:itemCCn];
+    if (_itemBtns.count) {
+        UIButton *itemBtn = (UIButton *)_itemBtns[index];
+        [self refreshItemStatus:itemBtn];
     }
 }
 
 - (void)refreshBadgeForIndex:(NSInteger)index {
-//    if (_itemCCns.count>index) {
-//        UIButton *itemCCn = (UIButton *)_itemCCns[index];
+//    if (_itemBtns.count>index) {
+//        UIButton *itemBtn = (UIButton *)_itemBtns[index];
 //        CCModel *model = [CCModel shareCCModel];
 //        if (model.travelUnreadNum>0) {
-//            [itemCCn showBadge];
+//            [itemBtn showBadge];
 //        } else {
-//            [itemCCn hidenBadge];
+//            [itemBtn hidenBadge];
 //        }
 //    }
 }

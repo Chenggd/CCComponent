@@ -25,7 +25,7 @@
 
 /**
  设置弹幕数据源
- @param type 弹幕类型
+ @param type 弹幕类型 0:循环展示 1:只展示一次
  */
 - (void)addDanmakuDataSource:(NSMutableArray *)dataSource type:(NSInteger)type;
 

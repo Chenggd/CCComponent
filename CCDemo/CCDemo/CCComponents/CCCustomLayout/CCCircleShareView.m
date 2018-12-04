@@ -290,7 +290,6 @@ static NSString *shareCellId = @"shareCellId";
      */
 }
 
-
 /**
  刷新模拟数据
  */
@@ -324,7 +323,13 @@ static NSString *shareCellId = @"shareCellId";
         [self.mj_footer resetNoMoreData];
     }
     [self reloadShareData];
-  
+    
+    //下拉刷新才更新头部数据
+    if (!self.loadMore) {
+        if (self.refreshFoucsCSBlock) {
+            self.refreshFoucsCSBlock(self.focusArray);
+        }
+    }
 }
 
 - (void)reloadShareData {

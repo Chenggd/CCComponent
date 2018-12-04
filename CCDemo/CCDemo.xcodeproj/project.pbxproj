@@ -55,6 +55,10 @@
 		1426B58D21A0726200DA3FFA /* CCDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B58721A0726200DA3FFA /* CCDanmakuView.m */; };
 		1426B58E21A0726200DA3FFA /* CCLiveAreaDanmakuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B58921A0726200DA3FFA /* CCLiveAreaDanmakuManager.m */; };
 		1426B58F21A0726200DA3FFA /* CCDanmuGiftInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B58A21A0726200DA3FFA /* CCDanmuGiftInfo.m */; };
+		1426B59221B6588E00DA3FFA /* CCSomeScrollVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B59121B6588E00DA3FFA /* CCSomeScrollVC.m */; };
+		1426B59521B659EC00DA3FFA /* CCBaseListTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B59421B659EC00DA3FFA /* CCBaseListTab.m */; };
+		1426B59821B665A000DA3FFA /* CCSomeListTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B59721B665A000DA3FFA /* CCSomeListTab.m */; };
+		1426B59B21B6718800DA3FFA /* CCDanmakuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426B59A21B6718800DA3FFA /* CCDanmakuVC.m */; };
 		2DF57D151D844A4CCFFB7811 /* libPods-CCDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 489AACE5A42D0B982DE8E0F5 /* libPods-CCDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -156,6 +160,14 @@
 		1426B58821A0726200DA3FFA /* CCLiveAreaDanmakuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLiveAreaDanmakuView.h; sourceTree = "<group>"; };
 		1426B58921A0726200DA3FFA /* CCLiveAreaDanmakuManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLiveAreaDanmakuManager.m; sourceTree = "<group>"; };
 		1426B58A21A0726200DA3FFA /* CCDanmuGiftInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDanmuGiftInfo.m; sourceTree = "<group>"; };
+		1426B59021B6588E00DA3FFA /* CCSomeScrollVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCSomeScrollVC.h; sourceTree = "<group>"; };
+		1426B59121B6588E00DA3FFA /* CCSomeScrollVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCSomeScrollVC.m; sourceTree = "<group>"; };
+		1426B59321B659EC00DA3FFA /* CCBaseListTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBaseListTab.h; sourceTree = "<group>"; };
+		1426B59421B659EC00DA3FFA /* CCBaseListTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBaseListTab.m; sourceTree = "<group>"; };
+		1426B59621B665A000DA3FFA /* CCSomeListTab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCSomeListTab.h; sourceTree = "<group>"; };
+		1426B59721B665A000DA3FFA /* CCSomeListTab.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCSomeListTab.m; sourceTree = "<group>"; };
+		1426B59921B6718800DA3FFA /* CCDanmakuVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCDanmakuVC.h; sourceTree = "<group>"; };
+		1426B59A21B6718800DA3FFA /* CCDanmakuVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCDanmakuVC.m; sourceTree = "<group>"; };
 		489AACE5A42D0B982DE8E0F5 /* libPods-CCDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61EA88A33D75226D10890ACF /* Pods-CCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCDemo/Pods-CCDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A0AC825F03BE810D456CF143 /* Pods-CCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCDemo/Pods-CCDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -229,6 +241,12 @@
 				1426B55121A03D9100DA3FFA /* CCSegmentVC.m */,
 				1426B56021A04FF300DA3FFA /* CCWaterfallFlowVC.h */,
 				1426B56121A04FF300DA3FFA /* CCWaterfallFlowVC.m */,
+				1426B59021B6588E00DA3FFA /* CCSomeScrollVC.h */,
+				1426B59121B6588E00DA3FFA /* CCSomeScrollVC.m */,
+				1426B59621B665A000DA3FFA /* CCSomeListTab.h */,
+				1426B59721B665A000DA3FFA /* CCSomeListTab.m */,
+				1426B59921B6718800DA3FFA /* CCDanmakuVC.h */,
+				1426B59A21B6718800DA3FFA /* CCDanmakuVC.m */,
 			);
 			path = TheSample;
 			sourceTree = "<group>";
@@ -283,6 +301,8 @@
 		1426B52921A033B200DA3FFA /* CCGestureScroll */ = {
 			isa = PBXGroup;
 			children = (
+				1426B59321B659EC00DA3FFA /* CCBaseListTab.h */,
+				1426B59421B659EC00DA3FFA /* CCBaseListTab.m */,
 				1426B53021A033B200DA3FFA /* CCCircleBannerView.h */,
 				1426B52B21A033B200DA3FFA /* CCCircleBannerView.m */,
 				1426B53121A033B200DA3FFA /* CCHomeBannerInfo.h */,
@@ -505,10 +525,12 @@
 				1426B55E21A03E1400DA3FFA /* CCChoseMenu.m in Sources */,
 				1426B53D21A033B300DA3FFA /* CCTool.m in Sources */,
 				1426B56C21A0504D00DA3FFA /* CCRoomMarkView.m in Sources */,
+				1426B59821B665A000DA3FFA /* CCSomeListTab.m in Sources */,
 				1426B58C21A0726200DA3FFA /* CCLiveAreaDanmakuView.m in Sources */,
 				1426B55D21A03E1400DA3FFA /* CCMenuInfo.m in Sources */,
 				1426B58E21A0726200DA3FFA /* CCLiveAreaDanmakuManager.m in Sources */,
 				1426B57821A05E8100DA3FFA /* CCFocusUserInfo.m in Sources */,
+				1426B59521B659EC00DA3FFA /* CCBaseListTab.m in Sources */,
 				1426B54321A033B300DA3FFA /* NSMutableDictionary+CCMutableDictionary.m in Sources */,
 				1426B53A21A033B300DA3FFA /* CCUICreator.m in Sources */,
 				1426B53B21A033B300DA3FFA /* UIView+WhenTappedBlocks.m in Sources */,
@@ -517,6 +539,7 @@
 				1426B56E21A0504D00DA3FFA /* CCMyCollectInfo.m in Sources */,
 				1426B55221A03D9100DA3FFA /* CCSegmentVC.m in Sources */,
 				1426B54821A033B300DA3FFA /* CCPageScrollView.m in Sources */,
+				1426B59221B6588E00DA3FFA /* CCSomeScrollVC.m in Sources */,
 				1426B53721A033B300DA3FFA /* UIButton+CCEnlargeTouchArea.m in Sources */,
 				1426B53921A033B300DA3FFA /* UIView+Additions.m in Sources */,
 				1426B376219C0B9400DA3FFA /* main.m in Sources */,
@@ -530,6 +553,7 @@
 				1426B54921A033B300DA3FFA /* CCLiveScrollBanner.m in Sources */,
 				1426B54721A033B300DA3FFA /* CCHookScrollView.m in Sources */,
 				1426B50721A0300C00DA3FFA /* CCBannerVC.m in Sources */,
+				1426B59B21B6718800DA3FFA /* CCDanmakuVC.m in Sources */,
 				1426B53E21A033B300DA3FFA /* CCHexColor.m in Sources */,
 				1426B58D21A0726200DA3FFA /* CCDanmakuView.m in Sources */,
 				1426B53621A033B300DA3FFA /* UIView+CCBadge.m in Sources */,
