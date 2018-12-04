@@ -10,6 +10,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ 混合了部分控件
+ */
+
 @interface CCSomeScrollVC : CCBaseVC
 
 @end

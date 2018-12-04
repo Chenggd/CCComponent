@@ -10,7 +10,9 @@
 #import "CCCircleShareView.h"
 
 @interface CCWaterfallFlowVC ()
+
 @property (nonatomic, strong) CCCircleShareView *cirShareView;
+
 @end
 
 @implementation CCWaterfallFlowVC
@@ -28,9 +30,8 @@
         _cirShareView.openNestedHook = YES;
         _cirShareView.shareType = 1;
         _cirShareView.minContentHeight = _cirShareView.height;
-        CCWS(weakSelf)
         [_cirShareView setTapCircleShareAction:^(CCMyCollectInfo * _Nonnull info, NSInteger index) {
-            
+            NSLog(@"tap %@",info.content);
         }];
         [_cirShareView setRefreshShareEnd:^{
             

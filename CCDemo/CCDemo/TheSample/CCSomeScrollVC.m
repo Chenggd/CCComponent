@@ -97,7 +97,7 @@
 - (UIView *)headTopView {
     if (!_headTopView) {
         _headTopView = [UIView createF:(CGRect){0,0,kScreenWidth,43}];
-        UILabel *lbl = [UILabel createF:(CGRect){kLeftSpace,12,80,20} TC:[UIColor colorWithHexString:@"757575"] FT:kHelveticaFont(14) T:@"用户" AL:NSTextAlignmentLeft];
+        UILabel *lbl = [UILabel createF:(CGRect){kLeftSpace,12,80,20} TC:[UIColor colorWithHexString:@"757575"] FT:kHelveticaFont(14) T:@"栏目" AL:NSTextAlignmentLeft];
         [_headTopView addSubview:lbl];
     }
     return _headTopView;

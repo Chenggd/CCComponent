@@ -27,8 +27,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-
-//主要用于卡片布局中宽度相同的样式
+/**
+ 主要用于卡片布局中宽度一致样式（待扩展）
+ */
 @interface CCFlexibleLayout : UICollectionViewLayout
 
 @property (nonatomic, weak) id<CCFlexibleDataSource>dataSource;
